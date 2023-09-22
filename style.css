@@ -1,0 +1,33 @@
+
+h1 {
+
+    text-align: center;
+    font-family: "Roboto Slab", 'cambria', serif; 
+    font-size: 5rem;
+
+}
+
+.animation {
+    animation-duration: 5s;
+    animation-name: slide;
+
+}
+
+
+@keyframes slide {
+
+    from {
+        opacity: 0.2;
+        font-size: 5rem;
+        transform: translateX(60%);
+    }
+
+    to {
+        opacity: 1;
+        font-size: 7rem;
+        transform: translateY(0);
+
+
+    }
+    
+}
